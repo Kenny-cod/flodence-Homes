@@ -11,9 +11,14 @@
 <!-- 🔝 NAVBAR -->
 <header class="header">
   <nav class="navbar">
-    <h1 class="logo">Flodence Homes</h1>
+    <h1 class="logo">Demo Homes</h1>
 
-    <ul class="nav-links">
+    <!-- 🔥 Hamburger -->
+    <div class="menu-toggle" id="menu-toggle">
+      ☰
+    </div>
+
+    <ul class="nav-links" id="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#rooms">Rooms</a></li>
       <li><a href="#gallery">Gallery</a></li>
@@ -21,17 +26,20 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
 
-    <a href="#booking" class="btn">Book Now</a>
+    <a href="#booking" class="btn nav-btn">Book Now</a>
   </nav>
 </header>
 
 <!-- 🏠 HERO -->
 <section id="home" class="hero">
   <div class="hero-content">
-    <h2>Peaceful Stay in Arusha</h2>
-    <p>Comfort. Privacy. Affordable.</p>
-    <a href="#booking" class="btn">Check Availability</a>
+    <h2>Luxury & Peaceful Stay in Arusha - Near city center</h2>
+      <div class="hero-actions">
+  <a href="https://wa.me/255783196587" class="whatsapp-btn">WhatsApp Now</a>
+  <a href="#rooms" class="btn">View Rooms</a>
+</div>
   </div>
+
 </section>
 
 <!-- 🛏 ROOMS -->
@@ -43,35 +51,51 @@
       <img src="images/room1.jpg">
       <h3>Deluxe Room</h3>
       <p>$40 / night</p>
-      <button class="details">View Details</button>
+      <a href="#" class="details-btn">View Details</a>
     </div>
 
     <div class="room-card">
       <img src="images/room2.jpg">
       <h3>Executive Suite</h3>
       <p>$70 / night</p>
-      <button class="details">View Details</button>
+      <a href="#" class="details-btn">View Details</a>
     </div>
 
     <div class="room-card">
       <img src="images/rooms.jpg">
       <h3>Family Room</h3>
       <p>$90 / night</p>
-      <button class="details">View Details</button>
+      <a href="#" class="details-btn">View Details</a>
     </div>
   </div>
 </section>
 
 <!-- 🧰 AMENITIES -->
 <section class="amenities">
-  <h2>Amenities</h2>
-  <div class="amenities-container">
-    <div>Free WiFi</div>
-    <div>Air Conditioning</div>
-    <div>Parking</div>
-    <div>Swimming Pool</div>
-    <div>Breakfast</div>
+    <h2>Amenities</h2>
+<div class="amenities-container">
+
+  <div class="amenity">
+    📶 <span>Free WiFi</span>
   </div>
+
+  <div class="amenity">
+    ❄️ <span>Air Conditioning</span>
+  </div>
+
+  <div class="amenity">
+    🚗 <span>Free Parking</span>
+  </div>
+
+  <div class="amenity">
+    🏊 <span>Swimming Pool</span>
+  </div>
+
+  <div class="amenity">
+    🍳 <span>Breakfast Included</span>
+  </div>
+
+</div>
 </section>
 
 <!-- 📸 GALLERY -->
@@ -90,25 +114,40 @@
   <h2>What Guests Say</h2>
 
   <div class="testimonial-container">
+
     <div class="testimonial">
-      <p>"Amazing place, very clean and peaceful."</p>
+      <p>"Amazing place, very clean and peaceful. Loved the service!"</p>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
       <h4>- John</h4>
     </div>
 
     <div class="testimonial">
-      <p>"Best experience in Arusha, highly recommend!"</p>
+      <p>"Best experience in Arusha, highly recommend! Great amenities."</p>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
       <h4>- Amina</h4>
     </div>
+
   </div>
 </section>
 
 <!-- 🧾 ABOUT -->
 <section id="about" class="about">
-  <h2>About Us</h2>
-  <p class="two">
-    Flodence Homes offers a relaxing and luxurious stay for travelers 
-    looking for comfort and convenience in Arusha.
-  </p>
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Demo Homes</h2>
+      <p>
+        Demo Homes offers a relaxing and luxurious stay for travelers 
+        looking for comfort, convenience, and privacy in the heart of Arusha.
+      </p>
+      <p>
+        Our rooms are fully equipped, and our amenities ensure a memorable experience. 
+        Perfect for couples, families, and solo travelers.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="images/about.jpg" alt="Flodence Homes Interior">
+    </div>
+  </div>
 </section>
 
 <!-- 📍 LOCATION -->
@@ -128,10 +167,27 @@
 
 <!-- 📞 FOOTER -->
 <footer id="contact" class="footer">
-  <p>📞 +255 695339130</p>
-  <p>📧 info@flodencehomes.com</p>
-  <p>© 2026 Flodence Homes</p>
-</footer>
+  <div class="footer-container">
 
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>📞 <a href="tel:+255695339130">+255 695 339 130</a></p>
+      <p>📧 <a href="mailto:info@flodencehomes.com">info@flodencehomes.com</a></p>
+      <a href="https://wa.me/255783196587" class="whatsapp-btn">WhatsApp Now</a>
+      <a href="tel:+255783196587" class="call-btn">Call Us</a>
+    </div>
+
+    <div class="footer-info">
+      <h3>Demo Homes</h3>
+      <p>Luxury stays in Arusha, perfect for families, couples, and solo travelers. Comfort. Privacy. Affordable.</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Demo Homes. All rights reserved.</p>
+  </div>
+</footer>
+<script src="demo.js"></script>
 </body>
 </html>
