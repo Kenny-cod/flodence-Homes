@@ -186,23 +186,6 @@ body{
   border-radius:10px;
 }
 
-/* BOOKING */
-.booking{
-  padding:60px 20px;
-  text-align:center;
-}
-
-.booking-form{
-  max-width:500px;
-  margin:auto;
-  display:flex;
-  flex-direction:column;
-  gap:10px;
-}
-
-.booking-form input{
-  padding:10px;
-}
 
 /* BUTTONS */
 
@@ -210,8 +193,7 @@ body{
   padding: 9px;
   border-radius: 8px;
   background-color: #0f3d3e;
-  color: white;
-}
+ }
 
 
 
